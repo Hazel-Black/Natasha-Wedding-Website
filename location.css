@@ -1,0 +1,81 @@
+.container{
+    margin-top: 50px;
+}
+.image-1{
+    width: 100%;
+   height: 40em; 
+   object-fit: cover;
+}
+.container__card-1{
+    max-width: 80%;
+    padding-left: 10em;
+    margin-top: 20px;
+    box-shadow: 5px -1px 10px  rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.container__card-1 img{
+    margin-top: 50px;
+    width: 90%;
+    height: 30em;
+    
+    
+}
+.section-container{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   
+}
+.container__card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E8E8;
+    box-shadow: 1px 10px 20px  rgba(0, 0, 0, 0.15);
+    margin-left: 20%;
+    color: #717292;
+    padding: 50px;
+}
+.title{
+    margin-top: 10px;
+    color: #717292;
+    font-size: 26px;
+}
+.details{
+    font-size: 15px;
+    font-weight: 400;
+}
+.input{
+    display: block;
+    margin-bottom: 2em;
+    width: 30em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #E8E8E8;
+    border-color: #717292;
+}
+.p1{
+text-align: left;
+font-size: 34px;
+font-family:Pinyon Script;
+}
+.p2{
+ font-size: 56px;   
+}
+.checkbox{
+    display: inline-block;
+    margin-bottom: 3em;
+    margin-left: 3em;
+}
+#submit{
+    margin: auto;
+    border: none;
+    background-color: #717292;
+    width: auto;
+    padding: 10px 40px;
+    color: white;
+}

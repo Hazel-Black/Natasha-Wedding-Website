@@ -1,0 +1,81 @@
+
+.top-section{
+    margin-top: 35px;
+    display: flex;
+}
+.main-img{
+    width: 50em;
+    height: 50em;
+    object-fit: cover;
+}
+.main-par{
+    margin-top: 20%;
+    margin-left: 20px;
+}
+h1{
+    color: #717292;
+    font-size: 100px;
+}
+.top-section p{
+    margin-bottom: 50px;
+}
+.top-section a{
+    text-decoration: none;
+    color: white;
+    background-color: #9A9CC2;
+    
+    padding: 10px; 
+}
+.bar{
+    margin-top: 3em;
+    width: 100%;
+    height: 5em;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.15);
+}
+.story-container{
+    display: flex;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+    
+
+}
+
+.jason-story{
+ background-color: #ead7f6;
+ padding: 5%;
+}
+.natasha-story{
+    background-color: #e8deef;
+     padding: 5%;
+    
+    
+}
+.title{
+    color: #727273;
+    font-size: 56px;
+}
+.images img{
+    margin-left: 7em;
+    width: 15em;
+    height: 15em;
+}
+.images{
+    display: flex;
+    
+}
+.b-g{
+    text-align: center;
+}
+.bottom-section{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    max-width: 20em;
+    color: #727273;
+    font-size: 56px;
+}
+.name{
+    color: #9A9CC2;
+}
