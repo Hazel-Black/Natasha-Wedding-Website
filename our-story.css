@@ -37,7 +37,7 @@ h1{
     line-height: 2;
     text-align: center;
     background-color: white;
-    
+    font-size: 21px;
 
 }
 
@@ -62,15 +62,18 @@ h1{
 }
 .images{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 .b-g{
     text-align: center;
 }
 .bottom-section{
+
     text-align: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 10px;
     max-width: 20em;
     color: #727273;

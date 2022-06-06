@@ -7,7 +7,7 @@
   object-fit: cover;
 }
 .gallery{
-  width: 30em;
+  max-width: 30em;
   height: 30em;
   object-fit: cover;
 }
@@ -18,7 +18,7 @@
 .pair{
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 5em;
   
 }
