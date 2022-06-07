@@ -27,4 +27,7 @@ img {
   img {
     max-width: 90%;
   }
+  .container p{
+    font-size: 50px;
+  }
 }

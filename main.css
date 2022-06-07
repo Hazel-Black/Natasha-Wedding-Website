@@ -4,9 +4,7 @@
   box-sizing: border-box;
   font-family: Volkhov;
 }
-body {
-  height: 1200px;
-}
+
 header {
   margin-block-start: 3em;
 }
@@ -39,7 +37,9 @@ footer {
   border-width: 1px;
   border-color: #dddddd;
   border-bottom: none;
+  text-align: center;
 }
+
 @media (max-width: 768px) {
   nav ul li a {
     display: flex;

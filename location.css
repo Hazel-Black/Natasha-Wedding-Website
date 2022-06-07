@@ -21,7 +21,7 @@
 }
 .section-container {
   display: flex;
-  
+
   justify-content: center;
   gap: 40px;
 }
@@ -78,8 +78,26 @@
   padding: 10px 40px;
   color: white;
 }
-@media (max-width:500px){
-  .section-container {
-    flex-direction: column;
+@media (max-width: 1000px) {
+  .container__card-1 {
+    max-width: 100%;
+    padding-left: 0px;
+  }
+.container__card-1 img{
+  object-fit: cover;
+}
+  .container__card-2 {
+    max-width: 100%;
+    margin: 0;
+  }
+  .input{
+    width:  100%;
+  }
+  .p2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .checkbox{
+    margin-left: 0;
   }
 }
