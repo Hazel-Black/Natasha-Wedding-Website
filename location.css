@@ -21,6 +21,7 @@
 }
 .section-container {
   display: flex;
+  
   justify-content: center;
   gap: 40px;
 }
@@ -76,4 +77,9 @@
   width: auto;
   padding: 10px 40px;
   color: white;
+}
+@media (max-width:500px){
+  .section-container {
+    flex-direction: column;
+  }
 }

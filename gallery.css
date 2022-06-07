@@ -22,3 +22,14 @@
   margin-bottom: 5em;
   
 }
+@media (max-width:1440px){
+  .pair{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery{
+    
+    
+  }
+}

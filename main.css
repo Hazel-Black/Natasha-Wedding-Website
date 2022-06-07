@@ -40,3 +40,14 @@ footer {
   border-color: #dddddd;
   border-bottom: none;
 }
+@media (max-width: 768px) {
+  nav ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+  a {
+    margin-bottom: 20px;
+  }
+}
